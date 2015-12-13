@@ -1,0 +1,68 @@
+{
+	"chinese": [{
+		"rank": 1,
+		"name": "Chinese Restaurant",
+		"keywords": "./spotify.png",
+		"score": 10
+	}, {
+		"rank": 2,
+		"name": "Chinese Restaurant 2",
+		"keywords": "./spotify.png",
+		"score": 7
+	}],
+	"indian": [{
+		"rank": 1,
+		"name": "Indian Restaurant",
+		"keywords": "./spotify.png",
+		"score": 10
+	}, {
+		"rank": 2,
+		"name": "Indian Restaurant 2",
+		"keywords": "./spotify.png",
+		"score": 7
+	}],
+	"japanese": [{
+		"rank": 1,
+		"name": "Japanse Restaurant",
+		"keywords": "./spotify.png",
+		"score": 10
+	}, {
+		"rank": 2,
+		"name": "Japanese Restaurant 2",
+		"keywords": "./spotify.png",
+		"score": 7
+	}],
+	"korean": [{
+		"rank": 1,
+		"name": "Korean Restaurant",
+		"keywords": "./spotify.png",
+		"score": 10
+	}, {
+		"rank": 2,
+		"name": "Korean Restaurant 2",
+		"keywords": "./spotify.png",
+		"score": 7
+	}],
+	"vietnamese": [{
+		"rank": 1,
+		"name": "Vietnamese Restaurant",
+		"keywords": "./spotify.png",
+		"score": 10
+	}, {
+		"rank": 2,
+		"name": "Vietnamese Restaurant 2",
+		"keywords": "./spotify.png",
+		"score": 7
+	}],
+	"thai": [{
+		"rank": 1,
+		"name": "Thai Restaurant",
+		"keywords": "./spotify.png",
+		"score": 10
+	}, {
+		"rank": 2,
+		"name": "Thai Restaurant 2",
+		"keywords": "./spotify.png",
+		"score": 7
+	}]
+}
