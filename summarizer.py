@@ -8,6 +8,13 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from WordCloud import TagCloud
 
 '''
+    Please note that we decided to use modules instead of classes,
+    because there is not really any shared state to justify the use of a class.
+    This is also the same approach adopted in CIS 530.
+
+'''
+
+'''
     Important Helper Function - Tokenizer
 '''
 
