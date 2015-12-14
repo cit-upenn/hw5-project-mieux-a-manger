@@ -15,7 +15,7 @@ export default class ReviewPage extends React.Component {
   render() {
     return (
       <div className="review-page">
-        <h1>Top Restaurants in Las Vegas</h1>
+        <h1 className="text-center">Top Restaurants in Las Vegas</h1>
         <CategoryDropdown updateReviews={this.updateReviews.bind(this)}/>
         <ReviewTable reviews={this.state.reviews}/>
       </div>
