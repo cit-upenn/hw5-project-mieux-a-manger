@@ -3,6 +3,11 @@ import math, os
 import random
 import uuid
 
+'''
+    This is a third party module used solely to generate word clouds.
+'''
+
+
 class TagCloud(object):
     FONT = 'OpenSans-Semibold.ttf'
     FONT_COLOR = ['#F2B701', '#E57D04', '#DC0030', '#B10058', '#7C378A', '#3465AA', '#09A275', '#85BC5F', '#39d',
@@ -98,7 +103,7 @@ class TagCloud(object):
         for word in self.words_to_draw:
             # if overlaps
             if not ((x + w < word['x']) or (word['x'] + word['w'] < x) or (y + h < word['y']) or (
-                    word['y'] + word['h'] < y)):
+                            word['y'] + word['h'] < y)):
                 return True
 
         return False
@@ -126,7 +131,7 @@ class TagCloud(object):
 
 if __name__ == '__main__':
     t = TagCloud()
-    words = [{"text": "coffee", "weight": 20296.0}, {"text": "love", "weight": 15320.0},
+    data_bank = [{"text": "coffee", "weight": 20296.0}, {"text": "love", "weight": 15320.0},
              {"text": "day", "weight": 6860.0}, {"text": "like", "weight": 5521.0},
              {"text": "follow", "weight": 5393.0}, {"text": "morning", "weight": 5125.0},
              {"text": "happy", "weight": 5099.0}, {"text": "girl", "weight": 5049.0},
@@ -155,4 +160,4 @@ if __name__ == '__main__':
              {"text": "pink", "weight": 1883.0}, {"text": "perfect", "weight": 1804.0},
              {"text": "shopping", "weight": 1801.0}]
 
-    print t.draw(words, "tester_1.jpg")
+    print t.draw(data_bank, "tester_1.jpg")
