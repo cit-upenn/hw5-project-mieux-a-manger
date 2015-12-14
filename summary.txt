@@ -8,13 +8,15 @@ Project Description:
 Mieux a Manger is a React web page that prompts user authentic restaurant suggestions by weighting yelp reviews differently. We first dove into the large Yelp dataset to parse the JSON files and link up Users, Reviews and Businesses. Then we adopted a proprietary algorithm that ranks the expertise of a particular reviewer in the given cuisine category. By assigning different weights to reviews based on reviewer rankings, we found the top 5 restaurants in each cuisine category. We further found the key words among users reviews for the top 5 restaurants and generated word clouds.
 
 Project Complexity:
-The project turned out to be much more complex than we anticipated, mostly due to the size of the original Yelp data and the complexity of building a React JS package.
+The project turned out to be much more complex than we anticipated, mostly due to the size of the original Yelp data, nlp techniques and the complexity of building a React JS package.
 
 The Yelp dataset is extremely large, which requires a delicate parsing process. After experimenting with csv conversion, SQL databases and other third party databases, we decided to build our own parsers, break down the large JSON file and further store into smaller JSON files. After a very long processing session, we saved the already parsed file in our repository.  
 
 In addition, the large file size makes it impossible to set up real time ranking algorithms. So we decided to generate the top 5 rankings for each category and save into a JSON file. The webpage would in turn load the stored JSON. Because of the setup, we no longer need to adopt a MVC framework like Django (Now we effectively only need the “V”). 
 
 Hoping to learn a JS framework, we used React instead. However, learning the setup and building the package turned out to be very complicated (see more explanation on React in User Manual). In addition we use Bootstrap to format the webpage. 
+
+Last but not least, we used tf-idf to get key words from reviews. More specifically we used sklearn to drastically improve processing time. We also built our own stop list. Note that since we want to add complexity, these approaches are all different from those taught in CIS 530.
 
 Work Breakdown:
 Yibang - data wrangling; Qi - building front end; Collaboration - ranking algorithm. 
