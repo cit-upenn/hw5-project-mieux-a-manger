@@ -33,8 +33,8 @@ Cleansed Datasets:
 			Distinct users of all review records selected
 
 III.	Web framework / UI
-	React web page styled with bootstrap. See user manual on how to load the page using webpack.
-	The UI has a simple drop down list to choose the cuisine in interest.
+React web page styled with bootstrap. See user manual on how to load the page using webpack.
+The UI has a simple drop down list to choose the cuisine in interest.
 
 	
 
