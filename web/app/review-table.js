@@ -5,7 +5,7 @@ export default class ReviewTable extends React.Component{
     const reviews = this.props.reviews;
     return (
       <div className="reviews-table">
-        <table width="100%" style={{ border: 'solid 1px black'}}>
+        <table className="table text-left" style={{width: "80%", margin: "0 auto"}}>
           <tbody>
             <tr>
               <th>Rank</th>

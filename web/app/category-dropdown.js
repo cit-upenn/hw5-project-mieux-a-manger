@@ -14,8 +14,9 @@ export default class CategoryDropdown extends React.Component{
   }
   render() {
     return (
-      <div className="category-dropdown">
-        <select onChange={this.handleCategoryChange.bind(this)} value={this.state.category}>
+      <div style={{marginBottom: "25px"}}className="category-dropdown text-center">
+        <select className="form-control" style={{width: "250px", margin: "0 auto"}} onChange={this.handleCategoryChange.bind(this)} value={this.state.category}>
+          <option>Choose a type of cuisine</option>
           <option value="chinese">Chinese</option>
           <option value="indian">Indian</option>
           <option value="japanese">Japanese</option>

@@ -19708,7 +19708,7 @@
 	        { className: "review-page" },
 	        _react2.default.createElement(
 	          "h1",
-	          null,
+	          { className: "text-center" },
 	          "Top Restaurants in Las Vegas"
 	        ),
 	        _react2.default.createElement(_categoryDropdown2.default, { updateReviews: this.updateReviews.bind(this) }),
@@ -19772,10 +19772,15 @@
 	    value: function render() {
 	      return _react2.default.createElement(
 	        "div",
-	        { className: "category-dropdown" },
+	        { style: { marginBottom: "25px" }, className: "category-dropdown text-center" },
 	        _react2.default.createElement(
 	          "select",
-	          { onChange: this.handleCategoryChange.bind(this), value: this.state.category },
+	          { className: "form-control", style: { width: "250px", margin: "0 auto" }, onChange: this.handleCategoryChange.bind(this), value: this.state.category },
+	          _react2.default.createElement(
+	            "option",
+	            null,
+	            "Choose a type of cuisine"
+	          ),
 	          _react2.default.createElement(
 	            "option",
 	            { value: "chinese" },
@@ -19858,7 +19863,7 @@
 	        { className: "reviews-table" },
 	        _react2.default.createElement(
 	          "table",
-	          { width: "100%", style: { border: 'solid 1px black' } },
+	          { className: "table text-left", style: { width: "80%", margin: "0 auto" } },
 	          _react2.default.createElement(
 	            "tbody",
 	            null,
