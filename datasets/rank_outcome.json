@@ -1,30 +1,30 @@
-{"name": "Great Bao", "business_id": "jlFhZFGzROkhhSIfXM1oJQ", "rank_score": 92938.62608695652}
-{"name": "Food Express Chinese Restaurant", "business_id": "pj0vl4DIlDCChe80Df40Yw", "rank_score": 88550.112}
-{"name": "Beijing Noodle Cafe", "business_id": "kwD6P2-EV87u6aVOcnAcpQ", "rank_score": 85672.7808988764}
-{"name": "Fat Choy", "business_id": "Kxp8cIMt3-vxwtCSsL9QKQ", "rank_score": 84654.79166666667}
-{"name": "Pan Asian", "business_id": "8HCC8NuJmdHnEg2XC00NPg", "rank_score": 83467.74879227053}
-{"name": "Great Bao", "business_id": "jlFhZFGzROkhhSIfXM1oJQ", "rank_score": 92938.62608695652}
-{"name": "Food Express Chinese Restaurant", "business_id": "pj0vl4DIlDCChe80Df40Yw", "rank_score": 88550.112}
-{"name": "Beijing Noodle Cafe", "business_id": "kwD6P2-EV87u6aVOcnAcpQ", "rank_score": 85672.7808988764}
-{"name": "Fat Choy", "business_id": "Kxp8cIMt3-vxwtCSsL9QKQ", "rank_score": 84654.79166666667}
-{"name": "Pan Asian", "business_id": "8HCC8NuJmdHnEg2XC00NPg", "rank_score": 83467.74879227053}
-{"name": "Great Bao", "business_id": "jlFhZFGzROkhhSIfXM1oJQ", "rank_score": 92938.62608695652}
-{"name": "Raku", "business_id": "xNcqwYAUeVOhe3KNC4Xjaw", "rank_score": 90426.58154235146}
-{"name": "Kabuto", "business_id": "AYbUb5UcAngroJ6uJG7tLQ", "rank_score": 89808.95185185185}
-{"name": "I-Naba", "business_id": "nX38puAVP3qV7AjYANkObA", "rank_score": 89709.23529411765}
-{"name": "Food Express Chinese Restaurant", "business_id": "pj0vl4DIlDCChe80Df40Yw", "rank_score": 88550.112}
-{"name": "Great Bao", "business_id": "jlFhZFGzROkhhSIfXM1oJQ", "rank_score": 92938.62608695652}
-{"name": "Raku", "business_id": "xNcqwYAUeVOhe3KNC4Xjaw", "rank_score": 90426.58154235146}
-{"name": "Kabuto", "business_id": "AYbUb5UcAngroJ6uJG7tLQ", "rank_score": 89808.95185185185}
-{"name": "I-Naba", "business_id": "nX38puAVP3qV7AjYANkObA", "rank_score": 89709.23529411765}
-{"name": "Food Express Chinese Restaurant", "business_id": "pj0vl4DIlDCChe80Df40Yw", "rank_score": 88550.112}
-{"name": "Great Bao", "business_id": "jlFhZFGzROkhhSIfXM1oJQ", "rank_score": 92938.62608695652}
-{"name": "Raku", "business_id": "xNcqwYAUeVOhe3KNC4Xjaw", "rank_score": 90426.58154235146}
-{"name": "Kabuto", "business_id": "AYbUb5UcAngroJ6uJG7tLQ", "rank_score": 89808.95185185185}
-{"name": "I-Naba", "business_id": "nX38puAVP3qV7AjYANkObA", "rank_score": 89709.23529411765}
-{"name": "Food Express Chinese Restaurant", "business_id": "pj0vl4DIlDCChe80Df40Yw", "rank_score": 88550.112}
-{"name": "Great Bao", "business_id": "jlFhZFGzROkhhSIfXM1oJQ", "rank_score": 92938.62608695652}
-{"name": "Raku", "business_id": "xNcqwYAUeVOhe3KNC4Xjaw", "rank_score": 90426.58154235146}
-{"name": "Kabuto", "business_id": "AYbUb5UcAngroJ6uJG7tLQ", "rank_score": 89808.95185185185}
-{"name": "I-Naba", "business_id": "nX38puAVP3qV7AjYANkObA", "rank_score": 89709.23529411765}
-{"name": "Food Express Chinese Restaurant", "business_id": "pj0vl4DIlDCChe80Df40Yw", "rank_score": 88550.112}
+{"category": "Chinese", "rank_score": 92938.62608695652, "business_id": "jlFhZFGzROkhhSIfXM1oJQ", "name": "Great Bao"}
+{"category": "Chinese", "rank_score": 88550.112, "business_id": "pj0vl4DIlDCChe80Df40Yw", "name": "Food Express Chinese Restaurant"}
+{"category": "Chinese", "rank_score": 85672.7808988764, "business_id": "kwD6P2-EV87u6aVOcnAcpQ", "name": "Beijing Noodle Cafe"}
+{"category": "Chinese", "rank_score": 84654.79166666667, "business_id": "Kxp8cIMt3-vxwtCSsL9QKQ", "name": "Fat Choy"}
+{"category": "Chinese", "rank_score": 83467.74879227053, "business_id": "8HCC8NuJmdHnEg2XC00NPg", "name": "Pan Asian"}
+{"category": "Indian", "rank_score": 92938.62608695652, "business_id": "jlFhZFGzROkhhSIfXM1oJQ", "name": "Great Bao"}
+{"category": "Indian", "rank_score": 88550.112, "business_id": "pj0vl4DIlDCChe80Df40Yw", "name": "Food Express Chinese Restaurant"}
+{"category": "Indian", "rank_score": 85672.7808988764, "business_id": "kwD6P2-EV87u6aVOcnAcpQ", "name": "Beijing Noodle Cafe"}
+{"category": "Indian", "rank_score": 84654.79166666667, "business_id": "Kxp8cIMt3-vxwtCSsL9QKQ", "name": "Fat Choy"}
+{"category": "Indian", "rank_score": 83467.74879227053, "business_id": "8HCC8NuJmdHnEg2XC00NPg", "name": "Pan Asian"}
+{"category": "Japanese", "rank_score": 92938.62608695652, "business_id": "jlFhZFGzROkhhSIfXM1oJQ", "name": "Great Bao"}
+{"category": "Japanese", "rank_score": 90426.58154235146, "business_id": "xNcqwYAUeVOhe3KNC4Xjaw", "name": "Raku"}
+{"category": "Japanese", "rank_score": 89808.95185185185, "business_id": "AYbUb5UcAngroJ6uJG7tLQ", "name": "Kabuto"}
+{"category": "Japanese", "rank_score": 89709.23529411765, "business_id": "nX38puAVP3qV7AjYANkObA", "name": "I-Naba"}
+{"category": "Japanese", "rank_score": 88550.112, "business_id": "pj0vl4DIlDCChe80Df40Yw", "name": "Food Express Chinese Restaurant"}
+{"category": "Korean", "rank_score": 92938.62608695652, "business_id": "jlFhZFGzROkhhSIfXM1oJQ", "name": "Great Bao"}
+{"category": "Korean", "rank_score": 90426.58154235146, "business_id": "xNcqwYAUeVOhe3KNC4Xjaw", "name": "Raku"}
+{"category": "Korean", "rank_score": 89808.95185185185, "business_id": "AYbUb5UcAngroJ6uJG7tLQ", "name": "Kabuto"}
+{"category": "Korean", "rank_score": 89709.23529411765, "business_id": "nX38puAVP3qV7AjYANkObA", "name": "I-Naba"}
+{"category": "Korean", "rank_score": 88550.112, "business_id": "pj0vl4DIlDCChe80Df40Yw", "name": "Food Express Chinese Restaurant"}
+{"category": "Vietnamese", "rank_score": 92938.62608695652, "business_id": "jlFhZFGzROkhhSIfXM1oJQ", "name": "Great Bao"}
+{"category": "Vietnamese", "rank_score": 90426.58154235146, "business_id": "xNcqwYAUeVOhe3KNC4Xjaw", "name": "Raku"}
+{"category": "Vietnamese", "rank_score": 89808.95185185185, "business_id": "AYbUb5UcAngroJ6uJG7tLQ", "name": "Kabuto"}
+{"category": "Vietnamese", "rank_score": 89709.23529411765, "business_id": "nX38puAVP3qV7AjYANkObA", "name": "I-Naba"}
+{"category": "Vietnamese", "rank_score": 88550.112, "business_id": "pj0vl4DIlDCChe80Df40Yw", "name": "Food Express Chinese Restaurant"}
+{"category": "Thai", "rank_score": 92938.62608695652, "business_id": "jlFhZFGzROkhhSIfXM1oJQ", "name": "Great Bao"}
+{"category": "Thai", "rank_score": 90426.58154235146, "business_id": "xNcqwYAUeVOhe3KNC4Xjaw", "name": "Raku"}
+{"category": "Thai", "rank_score": 89808.95185185185, "business_id": "AYbUb5UcAngroJ6uJG7tLQ", "name": "Kabuto"}
+{"category": "Thai", "rank_score": 89709.23529411765, "business_id": "nX38puAVP3qV7AjYANkObA", "name": "I-Naba"}
+{"category": "Thai", "rank_score": 88550.112, "business_id": "pj0vl4DIlDCChe80Df40Yw", "name": "Food Express Chinese Restaurant"}
