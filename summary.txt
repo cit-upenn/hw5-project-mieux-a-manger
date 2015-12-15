@@ -27,6 +27,8 @@ Note that we mostly used module instead of classes in our Python code, because w
 Work Breakdown:
 Yibang - data wrangling; Qi - building front end and NLP scripts; Collaboration - ranking algorithm. 
 
+Note that our coverage report include UI, file loader and writers and import 3rd party module. That's why coverage is <80%.
+
 Github link:
 https://github.com/cit-upenn/hw5-project-mieux-a-manger
 
