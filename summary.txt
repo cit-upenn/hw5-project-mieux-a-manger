@@ -7,8 +7,6 @@ Yibang Chen, Qi He
 Project Description:
 Mieux a Manger is a React web page that prompts user authentic restaurant suggestions by weighting yelp reviews differently. We first dove into the large Yelp dataset to parse the JSON files and link up Users, Reviews and Businesses. Then we adopted a proprietary algorithm that ranks the expertise of a particular reviewer in the given cuisine category. By assigning different weights to reviews based on reviewer rankings, we found the top 5 restaurants in each cuisine category. We further found the key words among users reviews for the top 5 restaurants and generated word clouds.
 
-Note: Yelp categorizes many restaurants as both Chinese and Indian, which resulted in duplicate reccommendations. This is an area we would further improve upon in the future.
-
 Technical Explanations:
 The technical build of the project consists of three parts: analysis of the large dataset, NLP, and React web page. 
 
@@ -16,7 +14,7 @@ Because the dataset is very large, we have to store our final results into JSON 
 
 This approach means that we no longer need to use a web app framework like Django. Instead, we only need to set up the "V" in the MVC pattern. So we decided to use Facebook's React JS framework, along with bootstrap styling. 
 
-In order to build the final JSON for the webpage to load, we broke down the large yelp data into smaller JSON files and only considered Chinese, Indian, and Japanese.
+In order to build the final JSON for the webpage to load, we broke down the large yelp data into smaller JSON files and only considered Chinese, Indian, Japanese, Korean, Vietnamese, and Thai.
 
 We assigned user weighting by ranking user by the number of total reviews and reviews in each cuisine category. While the last user (ranked ~30,000th) will get 1 point, the 1st ranked user will get 30,000 points. We then multiply the points to their review score for each restaurant. 
 
