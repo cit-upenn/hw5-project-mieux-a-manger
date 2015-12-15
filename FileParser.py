@@ -368,12 +368,14 @@ def get_top_biz (top_num, categories, ds_biz, ds_outcome):
                   '"}'
 
             write_file(ds_outcome, biz_str)
+        cat_biz = []
 
 
 
 def get_text_review (ds_biz, rev_raw, ds_txt):
     """
     This function gets all text reviews received for ranked restaurants; will use later for word cloud
+    Data errors of json.decoder.JSONDecodeError or ValueError are ignored at this stage of project
     :param ds_biz: business dataset
     :param rev_raw: raw review dataset
     :param ds_txt: new JSON file to store text reviews
@@ -404,6 +406,9 @@ def get_text_review (ds_biz, rev_raw, ds_txt):
             except ValueError:
                 continue
 
+            except json.decoder.JSONDecodeError:
+                continue
+
 
 if __name__ == '__main__':
 
@@ -411,7 +416,6 @@ if __name__ == '__main__':
     Get all three datasets
     """
     folder = "/Users/user/Box Sync/yelp_dataset"
-    # folder = "/Users/ecuser/Downloads/yelp_dataset"
     os.chdir(folder)
 
     biz_raw = "yelp_academic_dataset_business.json"
