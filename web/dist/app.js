@@ -19795,21 +19795,6 @@
 	            "option",
 	            { value: "japanese" },
 	            "Japanese"
-	          ),
-	          _react2.default.createElement(
-	            "option",
-	            { value: "korean" },
-	            "Korean"
-	          ),
-	          _react2.default.createElement(
-	            "option",
-	            { value: "vietnamese" },
-	            "Vietnamese"
-	          ),
-	          _react2.default.createElement(
-	            "option",
-	            { value: "thai" },
-	            "Thai"
 	          )
 	        )
 	      );
@@ -19940,13 +19925,31 @@
 		"chinese": [
 			{
 				"rank": 1,
-				"name": "Chinese Restaurant",
+				"name": "Great Bao",
 				"keywords": "./spotify.png",
 				"score": 10
 			},
 			{
 				"rank": 2,
-				"name": "Chinese Restaurant 2",
+				"name": "Food Express",
+				"keywords": "./spotify.png",
+				"score": 10
+			},
+			{
+				"rank": 3,
+				"name": "Noodle Cafe",
+				"keywords": "./spotify.png",
+				"score": 10
+			},
+			{
+				"rank": 4,
+				"name": "Fat Choy",
+				"keywords": "./spotify.png",
+				"score": 10
+			},
+			{
+				"rank": 5,
+				"name": "Pan Asian",
 				"keywords": "./spotify.png",
 				"score": 7
 			}
@@ -19954,13 +19957,31 @@
 		"indian": [
 			{
 				"rank": 1,
-				"name": "Indian Restaurant",
+				"name": "Great Bao",
 				"keywords": "./spotify.png",
 				"score": 10
 			},
 			{
 				"rank": 2,
-				"name": "Indian Restaurant 2",
+				"name": "Food Express",
+				"keywords": "./spotify.png",
+				"score": 10
+			},
+			{
+				"rank": 3,
+				"name": "Noodle Cafe",
+				"keywords": "./spotify.png",
+				"score": 10
+			},
+			{
+				"rank": 4,
+				"name": "Fat Choy",
+				"keywords": "./spotify.png",
+				"score": 10
+			},
+			{
+				"rank": 5,
+				"name": "Pan Asian",
 				"keywords": "./spotify.png",
 				"score": 7
 			}
@@ -19968,55 +19989,31 @@
 		"japanese": [
 			{
 				"rank": 1,
-				"name": "Japanse Restaurant",
+				"name": "Great Bao",
 				"keywords": "./spotify.png",
 				"score": 10
 			},
 			{
 				"rank": 2,
-				"name": "Japanese Restaurant 2",
-				"keywords": "./spotify.png",
-				"score": 7
-			}
-		],
-		"korean": [
-			{
-				"rank": 1,
-				"name": "Korean Restaurant",
+				"name": "Raku",
 				"keywords": "./spotify.png",
 				"score": 10
 			},
 			{
-				"rank": 2,
-				"name": "Korean Restaurant 2",
-				"keywords": "./spotify.png",
-				"score": 7
-			}
-		],
-		"vietnamese": [
-			{
-				"rank": 1,
-				"name": "Vietnamese Restaurant",
+				"rank": 3,
+				"name": "Kabuto",
 				"keywords": "./spotify.png",
 				"score": 10
 			},
 			{
-				"rank": 2,
-				"name": "Vietnamese Restaurant 2",
-				"keywords": "./spotify.png",
-				"score": 7
-			}
-		],
-		"thai": [
-			{
-				"rank": 1,
-				"name": "Thai Restaurant",
+				"rank": 4,
+				"name": "I-Naba",
 				"keywords": "./spotify.png",
 				"score": 10
 			},
 			{
-				"rank": 2,
-				"name": "Thai Restaurant 2",
+				"rank": 5,
+				"name": "Food Express",
 				"keywords": "./spotify.png",
 				"score": 7
 			}

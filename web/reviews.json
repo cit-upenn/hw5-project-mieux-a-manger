@@ -1,68 +1,80 @@
 {
 	"chinese": [{
 		"rank": 1,
-		"name": "Chinese Restaurant",
+		"name": "Great Bao",
 		"keywords": "./spotify.png",
-		"score": 10
+		"score": 93
 	}, {
 		"rank": 2,
-		"name": "Chinese Restaurant 2",
+		"name": "Food Express",
 		"keywords": "./spotify.png",
-		"score": 7
+		"score": 88
+	}, {
+		"rank": 3,
+		"name": "Noodle Cafe",
+		"keywords": "./spotify.png",
+		"score": 86
+	}, {
+		"rank": 4,
+		"name": "Fat Choy",
+		"keywords": "./spotify.png",
+		"score": 85
+	}, {
+		"rank": 5,
+		"name": "Pan Asian",
+		"keywords": "./spotify.png",
+		"score": 83
 	}],
 	"indian": [{
 		"rank": 1,
-		"name": "Indian Restaurant",
+		"name": "Great Bao",
 		"keywords": "./spotify.png",
-		"score": 10
+		"score": 93
 	}, {
 		"rank": 2,
-		"name": "Indian Restaurant 2",
+		"name": "Delhi Indian Cuisine",
 		"keywords": "./spotify.png",
-		"score": 7
+		"score": 89
+	}, {
+		"rank": 3,
+		"name": "Noodle Cafe",
+		"keywords": "./spotify.png",
+		"score": 86
+	}, {
+		"rank": 4,
+		"name": "Fat Choy",
+		"keywords": "./spotify.png",
+		"score": 85
+	}, {
+		"rank": 5,
+		"name": "Pan Asian",
+		"keywords": "./spotify.png",
+		"score": 83
 	}],
 	"japanese": [{
 		"rank": 1,
-		"name": "Japanse Restaurant",
+		"name": "Great Bao",
 		"keywords": "./spotify.png",
-		"score": 10
+		"score": 93
 	}, {
 		"rank": 2,
-		"name": "Japanese Restaurant 2",
+		"name": "Raku",
 		"keywords": "./spotify.png",
-		"score": 7
-	}],
-	"korean": [{
-		"rank": 1,
-		"name": "Korean Restaurant",
-		"keywords": "./spotify.png",
-		"score": 10
+		"score": 90
 	}, {
-		"rank": 2,
-		"name": "Korean Restaurant 2",
+		"rank": 3,
+		"name": "Kabuto",
 		"keywords": "./spotify.png",
-		"score": 7
-	}],
-	"vietnamese": [{
-		"rank": 1,
-		"name": "Vietnamese Restaurant",
-		"keywords": "./spotify.png",
-		"score": 10
+		"score": 90
 	}, {
-		"rank": 2,
-		"name": "Vietnamese Restaurant 2",
+		"rank": 4,
+		"name": "I-Naba",
 		"keywords": "./spotify.png",
-		"score": 7
-	}],
-	"thai": [{
-		"rank": 1,
-		"name": "Thai Restaurant",
-		"keywords": "./spotify.png",
-		"score": 10
+		"score": 90
 	}, {
-		"rank": 2,
-		"name": "Thai Restaurant 2",
+		"rank": 5,
+		"name": "Food Express",
 		"keywords": "./spotify.png",
-		"score": 7
+		"score": 89
 	}]
 }

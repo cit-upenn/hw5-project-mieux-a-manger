@@ -2,7 +2,7 @@
 
 I. 	Project scope
 
-This project aims to generate top 5 restaurants in Las Vegas based on Yelp reviews. More specifically, we give reviews different weightings based on the reviewer's expertise in a particular cuisine. As a results, our score will be more "authentic" than the raw average score used by Yelp. For this particular project, we will only consider six different cuisine: Chinese, Indian, Japanese, Korean, Vietnamese and Thai. 
+This project aims to generate top 5 restaurants in Las Vegas based on Yelp reviews. More specifically, we give reviews different weightings based on the reviewer's expertise in a particular cuisine. As a results, our score will be more "authentic" than the raw average score used by Yelp. For this particular project, we will only consider three different cuisine: Chinese, Indian, and Japanese. 
 
 II. 	Data & datasets
 
@@ -19,7 +19,7 @@ Cleansed Datasets:
 		- Will link this data via unique ID to review
 		- Filters:
 			city:		Las Vegas
-			categories:	'Chinese', 'Indian', 'Japanese', 'Korean', 'Vietnamese', 'Thai'
+			categories:	'Chinese', 'Indian', 'Japanese'
 			reviews:	> 100
 			stars:		>= 4.0
 	

@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="102302d7-c60d-4640-9139-c19806e375af" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_build_vector.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_common_names.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_flatten.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_get_idf.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_get_stopwords.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_get_tf.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_tokenize.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/User Manual.docx" afterPath="$PROJECT_DIR$/User Manual.docx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/summarizer.py" afterPath="$PROJECT_DIR$/summarizer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/reviews.json" afterPath="$PROJECT_DIR$/web/reviews.json" />
     </list>
     <ignored path="hw5-project-mieux-a-manger.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -549,7 +539,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33047944" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2322503" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2322503" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22006473" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
