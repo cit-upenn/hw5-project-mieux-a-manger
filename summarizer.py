@@ -1,7 +1,6 @@
 from collections import defaultdict, Counter, OrderedDict
 import math
 import itertools
-
 from nltk import word_tokenize
 from nltk.corpus import stopwords
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -156,7 +155,6 @@ def get_idf(corpus):
 
 
 def build_word_cloud(token_tf_idf_dict, num_of_words_to_display, picture_addr):
-
     # initiate the TagCloud object
     """
     Get a mapping of tokens and tf idf, generate the word cloud and save to given address.
@@ -182,7 +180,8 @@ def build_word_cloud(token_tf_idf_dict, num_of_words_to_display, picture_addr):
     return cloud.draw(drawing_data, picture_addr)
 
 
-def run(corpus, num_of_words_to_display=50, picture_addr = "word_cloud.jpg", census_last_name = "census-dist-2500-last.txt", census_first_female = "census-dist-female-first.txt", census_first_male = "census-dist-male-first.txt"):
+def run(corpus, num_of_words_to_display=50, picture_addr="word_cloud.jpg", census_last_name="census-dist-2500-last.txt",
+        census_first_female="census-dist-female-first.txt", census_first_male="census-dist-male-first.txt"):
     """
     This is the function that puts everything together. Input the corpus and let is run.
     :param corpus: list of string reviews. E.g. ["this tastes good", "bad restaurant"]
@@ -196,9 +195,10 @@ def run(corpus, num_of_words_to_display=50, picture_addr = "word_cloud.jpg", cen
     tf_idf_dict = build_vector(corpus, stop_list)
     build_word_cloud(tf_idf_dict, num_of_words_to_display, picture_addr)
 
+
 if __name__ == "__main__":
     # census_last_name = "census-dist-2500-last.txt"
     # census_first_female = "census-dist-female-first.txt"
     # census_first_male = "census-dist-male-first.txt"
-    # run(["This restaurant is great", "This restaurant is authentic!", "This Chinese restaurant is Tasty.", "This place is authentic!", "This place is tasty."])
+    # run(["This restaurant is great", "This restaurant is authentic!", "This Chinese restaurant is Tasty.", "This place is authentic!", "This place is tasty."], 50, "test.jpg")
     print "done"
