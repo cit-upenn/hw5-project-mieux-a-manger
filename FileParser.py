@@ -412,38 +412,39 @@ def get_text_review (ds_biz, rev_raw, ds_txt):
 
 if __name__ == '__main__':
 
-    """
-    Get all three datasets
-    """
-    folder = "/Users/user/Box Sync/yelp_dataset"
-    os.chdir(folder)
-
-    biz_raw = "yelp_academic_dataset_business.json"
-    biz_sub = 'business_subset.json'
-    rev_raw = 'yelp_academic_dataset_review.json'
-    rev_sub = "review_subset.json"
-    use_raw = 'yelp_academic_dataset_user.json'
-    use_sub = "user_subset.json"
-    rank_outcome = "rank_outcome.json"
-    rev_txt = "review_text.json"
-
-    categories = ['Chinese', 'Indian', 'Japanese', 'Korean', 'Vietnamese', 'Thai']
-    city = 'Las Vegas'
-
-    getds_business(biz_raw, biz_sub, 4.0, 100, city, categories)
-    print ("Qualified business data parsed to :" + biz_sub)
-
-    getds_review(rev_raw, rev_sub, biz_sub)
-    print ("Qualified review data parsed to :" + rev_sub)
-
-    getds_user(use_raw, use_sub, rev_sub)
-    print ("Qualified user data parsed to :" + use_sub)
-
-    rank_user(use_sub)
-    print ("User data ranked")
-
-    update_business_score(biz_sub, rev_sub, use_sub)
-
-    get_top_biz(5, categories, biz_sub, rank_outcome)
-
-    get_text_review(rank_outcome, rev_raw, rev_txt)
+    # """
+    # Get all three datasets
+    # """
+    # folder = "/Users/user/Box Sync/yelp_dataset"
+    # os.chdir(folder)
+    #
+    # biz_raw = "yelp_academic_dataset_business.json"
+    # biz_sub = 'business_subset.json'
+    # rev_raw = 'yelp_academic_dataset_review.json'
+    # rev_sub = "review_subset.json"
+    # use_raw = 'yelp_academic_dataset_user.json'
+    # use_sub = "user_subset.json"
+    # rank_outcome = "rank_outcome.json"
+    # rev_txt = "review_text.json"
+    #
+    # categories = ['Chinese', 'Indian', 'Japanese', 'Korean', 'Vietnamese', 'Thai']
+    # city = 'Las Vegas'
+    #
+    # getds_business(biz_raw, biz_sub, 4.0, 100, city, categories)
+    # print ("Qualified business data parsed to :" + biz_sub)
+    #
+    # getds_review(rev_raw, rev_sub, biz_sub)
+    # print ("Qualified review data parsed to :" + rev_sub)
+    #
+    # getds_user(use_raw, use_sub, rev_sub)
+    # print ("Qualified user data parsed to :" + use_sub)
+    #
+    # rank_user(use_sub)
+    # print ("User data ranked")
+    #
+    # update_business_score(biz_sub, rev_sub, use_sub)
+    #
+    # get_top_biz(5, categories, biz_sub, rank_outcome)
+    #
+    # get_text_review(rank_outcome, rev_raw, rev_txt)
+    print "done"

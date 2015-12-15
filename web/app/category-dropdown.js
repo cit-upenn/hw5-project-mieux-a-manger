@@ -20,6 +20,9 @@ export default class CategoryDropdown extends React.Component{
           <option value="chinese">Chinese</option>
           <option value="indian">Indian</option>
           <option value="japanese">Japanese</option>
+          <option value="korean">Korean</option>
+          <option value="vietnamese">Vietnamese</option>
+          <option value="thai">Thai</option>
         </select>
       </div>
     );

@@ -22,4 +22,4 @@ class TestBuild_vector(TestCase):
         stoplist = []
         results = build_vector(corpus, stoplist)
 
-        self.assertTrue(len(results.keys()) == 3)
+        self.assertTrue(len(results.keys()) == 2)

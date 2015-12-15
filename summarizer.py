@@ -23,8 +23,22 @@ def tokenize(rawexcerpt):
     :param rawexcerpt: string input (e.g. paragraph that contains many words)
     :return: list of tokenized words, all lower-cased
     """
-    decoded_list = word_tokenize(rawexcerpt.decode('utf8'))
-    return [word.encode('utf8').lower() for word in decoded_list]
+    # remove numbers
+    try:
+        string_input = rawexcerpt.decode('utf8')
+    except:
+        string_input = rawexcerpt
+        print "ascii cannot encode. keep previous format"
+    string_input = ''.join([i for i in string_input if not i.isdigit()])
+
+    decoded_list = word_tokenize(string_input)
+    output_list = []
+
+    for token in decoded_list:
+        token = token.lstrip("'.+=-%$#!@^&*()").lower().lstrip("'.") #remove words like 'lil
+        if token != '':
+            output_list.append(token)
+    return [word.encode('utf8') for word in output_list]
 
 
 '''
@@ -201,4 +215,6 @@ if __name__ == "__main__":
     # census_first_female = "census-dist-female-first.txt"
     # census_first_male = "census-dist-male-first.txt"
     # run(["This restaurant is great", "This restaurant is authentic!", "This Chinese restaurant is Tasty.", "This place is authentic!", "This place is tasty."], 50, "test.jpg")
+    # print tokenize("testing the tokenizer 12.95 300 years")
+
     print "done"

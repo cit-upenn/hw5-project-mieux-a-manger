@@ -19795,6 +19795,21 @@
 	            "option",
 	            { value: "japanese" },
 	            "Japanese"
+	          ),
+	          _react2.default.createElement(
+	            "option",
+	            { value: "korean" },
+	            "Korean"
+	          ),
+	          _react2.default.createElement(
+	            "option",
+	            { value: "vietnamese" },
+	            "Vietnamese"
+	          ),
+	          _react2.default.createElement(
+	            "option",
+	            { value: "thai" },
+	            "Thai"
 	          )
 	        )
 	      );
@@ -19926,96 +19941,192 @@
 			{
 				"rank": 1,
 				"name": "Great Bao",
-				"keywords": "./spotify.png",
-				"score": 10
+				"keywords": "Chinese1.png",
+				"score": 99
 			},
 			{
 				"rank": 2,
-				"name": "Food Express",
-				"keywords": "./spotify.png",
-				"score": 10
+				"name": "Food Express Chinese Restaurant",
+				"keywords": "Chinese2.png",
+				"score": 94
 			},
 			{
 				"rank": 3,
-				"name": "Noodle Cafe",
-				"keywords": "./spotify.png",
-				"score": 10
+				"name": "Beijing Noodle Cafe",
+				"keywords": "Chinese3.png",
+				"score": 91
 			},
 			{
 				"rank": 4,
 				"name": "Fat Choy",
-				"keywords": "./spotify.png",
-				"score": 10
+				"keywords": "Chinese4.png",
+				"score": 90
 			},
 			{
 				"rank": 5,
 				"name": "Pan Asian",
-				"keywords": "./spotify.png",
-				"score": 7
+				"keywords": "Chinese5.png",
+				"score": 89
 			}
 		],
 		"indian": [
 			{
 				"rank": 1,
-				"name": "Great Bao",
-				"keywords": "./spotify.png",
-				"score": 10
+				"name": "Namaste Indian Cuisine",
+				"keywords": "Indian1.png",
+				"score": 99
 			},
 			{
 				"rank": 2,
-				"name": "Food Express",
-				"keywords": "./spotify.png",
-				"score": 10
+				"name": "Mint Indian Bistro",
+				"keywords": "Indian2.png",
+				"score": 95
 			},
 			{
 				"rank": 3,
-				"name": "Noodle Cafe",
-				"keywords": "./spotify.png",
-				"score": 10
+				"name": "Mount Everest India's Cuisine",
+				"keywords": "Indian3.png",
+				"score": 95
 			},
 			{
 				"rank": 4,
-				"name": "Fat Choy",
-				"keywords": "./spotify.png",
-				"score": 10
+				"name": "Saffron Flavors of India",
+				"keywords": "Indian4.png",
+				"score": 94
 			},
 			{
 				"rank": 5,
-				"name": "Pan Asian",
-				"keywords": "./spotify.png",
-				"score": 7
+				"name": "Samosa Factory",
+				"keywords": "Indian5.png",
+				"score": 87
 			}
 		],
 		"japanese": [
 			{
 				"rank": 1,
-				"name": "Great Bao",
-				"keywords": "./spotify.png",
-				"score": 10
+				"name": "Raku",
+				"keywords": "Japanese1.png",
+				"score": 99
 			},
 			{
 				"rank": 2,
-				"name": "Raku",
-				"keywords": "./spotify.png",
-				"score": 10
+				"name": "Kabuto",
+				"keywords": "Japanese2.png",
+				"score": 98
 			},
 			{
 				"rank": 3,
-				"name": "Kabuto",
-				"keywords": "./spotify.png",
-				"score": 10
+				"name": "I-Naba",
+				"keywords": "Japanese3.png",
+				"score": 98
 			},
 			{
 				"rank": 4,
-				"name": "I-Naba",
-				"keywords": "./spotify.png",
-				"score": 10
+				"name": "Japanese Curry Zen",
+				"keywords": "Japanese4.png",
+				"score": 97
 			},
 			{
 				"rank": 5,
-				"name": "Food Express",
-				"keywords": "./spotify.png",
-				"score": 7
+				"name": "Sen of Japan",
+				"keywords": "Japanese5.png",
+				"score": 96
+			}
+		],
+		"korean": [
+			{
+				"rank": 1,
+				"name": "KoMex Fusion",
+				"keywords": "Korean1.png",
+				"score": 99
+			},
+			{
+				"rank": 2,
+				"name": "Soyo Korean Barstaurant",
+				"keywords": "Korean2.png",
+				"score": 95
+			},
+			{
+				"rank": 3,
+				"name": "Island Style",
+				"keywords": "Korean3.png",
+				"score": 94
+			},
+			{
+				"rank": 4,
+				"name": "Buldogis",
+				"keywords": "Korean4.png",
+				"score": 92
+			},
+			{
+				"rank": 5,
+				"name": "E-Jo Korean Restaurant",
+				"keywords": "Korean5.png",
+				"score": 91
+			}
+		],
+		"vietnamese": [
+			{
+				"rank": 1,
+				"name": "Pho Bosa",
+				"keywords": "Vietnamese1.png",
+				"score": 99
+			},
+			{
+				"rank": 2,
+				"name": "Kinh Do",
+				"keywords": "Vietnamese2.png",
+				"score": 92
+			},
+			{
+				"rank": 3,
+				"name": "Viet Bistro",
+				"keywords": "Vietnamese3.png",
+				"score": 91
+			},
+			{
+				"rank": 4,
+				"name": "Pho Annie",
+				"keywords": "Vietnamese4.png",
+				"score": 91
+			},
+			{
+				"rank": 5,
+				"name": "Bamboo Bistro",
+				"keywords": "Vietnamese5.png",
+				"score": 89
+			}
+		],
+		"thai": [
+			{
+				"rank": 1,
+				"name": "Lotus of Siam",
+				"keywords": "Thai1.png",
+				"score": 99
+			},
+			{
+				"rank": 2,
+				"name": "Komol Restaurant",
+				"keywords": "Thai2.png",
+				"score": 97
+			},
+			{
+				"rank": 3,
+				"name": "Archi's Thai Kitchen",
+				"keywords": "Thai3.png",
+				"score": 95
+			},
+			{
+				"rank": 4,
+				"name": "Thai Style Noodle House",
+				"keywords": "Thai4.png",
+				"score": 94
+			},
+			{
+				"rank": 5,
+				"name": "Chada Thai & Wine",
+				"keywords": "Thai5.png",
+				"score": 93
 			}
 		]
 	};

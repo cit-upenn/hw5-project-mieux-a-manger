@@ -1,80 +1,158 @@
 {
 	"chinese": [{
-		"rank": 1,
-		"name": "Great Bao",
-		"keywords": "./spotify.png",
-		"score": 93
-	}, {
-		"rank": 2,
-		"name": "Food Express",
-		"keywords": "./spotify.png",
-		"score": 88
-	}, {
-		"rank": 3,
-		"name": "Noodle Cafe",
-		"keywords": "./spotify.png",
-		"score": 86
-	}, {
-		"rank": 4,
-		"name": "Fat Choy",
-		"keywords": "./spotify.png",
-		"score": 85
-	}, {
-		"rank": 5,
-		"name": "Pan Asian",
-		"keywords": "./spotify.png",
-		"score": 83
-	}],
+		"rank": 1, 
+		"name": "Great Bao", 
+		"keywords": "Chinese1.png", 
+		"score": 99.0
+	},{
+		"rank": 2, 
+		"name": "Food Express Chinese Restaurant", 
+		"keywords": "Chinese2.png", 
+		"score": 94.0
+	},{
+		"rank": 3, 
+		"name": "Beijing Noodle Cafe", 
+		"keywords": "Chinese3.png", 
+		"score": 91.0
+	},{
+		"rank": 4, 
+		"name": "Fat Choy", 
+		"keywords": "Chinese4.png", 
+		"score": 90.0
+	},{
+		"rank": 5, 
+		"name": "Pan Asian", 
+		"keywords": "Chinese5.png", 
+		"score": 89.0
+	}], 
 	"indian": [{
-		"rank": 1,
-		"name": "Great Bao",
-		"keywords": "./spotify.png",
-		"score": 93
-	}, {
-		"rank": 2,
-		"name": "Delhi Indian Cuisine",
-		"keywords": "./spotify.png",
-		"score": 89
-	}, {
-		"rank": 3,
-		"name": "Noodle Cafe",
-		"keywords": "./spotify.png",
-		"score": 86
-	}, {
-		"rank": 4,
-		"name": "Fat Choy",
-		"keywords": "./spotify.png",
-		"score": 85
-	}, {
-		"rank": 5,
-		"name": "Pan Asian",
-		"keywords": "./spotify.png",
-		"score": 83
-	}],
+		"rank": 1, 
+		"name": "Namaste Indian Cuisine", 
+		"keywords": "Indian1.png", 
+		"score": 99.0
+	},{
+		"rank": 2, 
+		"name": "Mint Indian Bistro", 
+		"keywords": "Indian2.png", 
+		"score": 95.0
+	},{
+		"rank": 3, 
+		"name": "Mount Everest India's Cuisine", 
+		"keywords": "Indian3.png", 
+		"score": 95.0
+	},{
+		"rank": 4, 
+		"name": "Saffron Flavors of India", 
+		"keywords": "Indian4.png", 
+		"score": 94.0
+	},{
+		"rank": 5, 
+		"name": "Samosa Factory", 
+		"keywords": "Indian5.png", 
+		"score": 87.0
+	}], 
 	"japanese": [{
-		"rank": 1,
-		"name": "Great Bao",
-		"keywords": "./spotify.png",
-		"score": 93
-	}, {
-		"rank": 2,
-		"name": "Raku",
-		"keywords": "./spotify.png",
-		"score": 90
-	}, {
-		"rank": 3,
-		"name": "Kabuto",
-		"keywords": "./spotify.png",
-		"score": 90
-	}, {
-		"rank": 4,
-		"name": "I-Naba",
-		"keywords": "./spotify.png",
-		"score": 90
-	}, {
-		"rank": 5,
-		"name": "Food Express",
-		"keywords": "./spotify.png",
-		"score": 89
+		"rank": 1, 
+		"name": "Raku", 
+		"keywords": "Japanese1.png", 
+		"score": 99.0
+	},{
+		"rank": 2, 
+		"name": "Kabuto", 
+		"keywords": "Japanese2.png", 
+		"score": 98.0
+	},{
+		"rank": 3, 
+		"name": "I-Naba", 
+		"keywords": "Japanese3.png", 
+		"score": 98.0
+	},{
+		"rank": 4, 
+		"name": "Japanese Curry Zen", 
+		"keywords": "Japanese4.png", 
+		"score": 97.0
+	},{
+		"rank": 5, 
+		"name": "Sen of Japan", 
+		"keywords": "Japanese5.png", 
+		"score": 96.0
+	}], 
+	"korean": [{
+		"rank": 1, 
+		"name": "KoMex Fusion", 
+		"keywords": "Korean1.png", 
+		"score": 99.0
+	},{
+		"rank": 2, 
+		"name": "Soyo Korean Barstaurant", 
+		"keywords": "Korean2.png", 
+		"score": 95.0
+	},{
+		"rank": 3, 
+		"name": "Island Style", 
+		"keywords": "Korean3.png", 
+		"score": 94.0
+	},{
+		"rank": 4, 
+		"name": "Buldogis", 
+		"keywords": "Korean4.png", 
+		"score": 92.0
+	},{
+		"rank": 5, 
+		"name": "E-Jo Korean Restaurant", 
+		"keywords": "Korean5.png", 
+		"score": 91.0
+	}], 
+	"vietnamese": [{
+		"rank": 1, 
+		"name": "Pho Bosa", 
+		"keywords": "Vietnamese1.png", 
+		"score": 99.0
+	},{
+		"rank": 2, 
+		"name": "Kinh Do", 
+		"keywords": "Vietnamese2.png", 
+		"score": 92.0
+	},{
+		"rank": 3, 
+		"name": "Viet Bistro", 
+		"keywords": "Vietnamese3.png", 
+		"score": 91.0
+	},{
+		"rank": 4, 
+		"name": "Pho Annie", 
+		"keywords": "Vietnamese4.png", 
+		"score": 91.0
+	},{
+		"rank": 5, 
+		"name": "Bamboo Bistro", 
+		"keywords": "Vietnamese5.png", 
+		"score": 89.0
+	}], 
+	"thai": [{
+		"rank": 1, 
+		"name": "Lotus of Siam", 
+		"keywords": "Thai1.png", 
+		"score": 99.0
+	},{
+		"rank": 2, 
+		"name": "Komol Restaurant", 
+		"keywords": "Thai2.png", 
+		"score": 97.0
+	},{
+		"rank": 3, 
+		"name": "Archi's Thai Kitchen", 
+		"keywords": "Thai3.png", 
+		"score": 95.0
+	},{
+		"rank": 4, 
+		"name": "Thai Style Noodle House", 
+		"keywords": "Thai4.png", 
+		"score": 94.0
+	},{
+		"rank": 5, 
+		"name": "Chada Thai & Wine", 
+		"keywords": "Thai5.png", 
+		"score": 93.0
 	}]
 }
